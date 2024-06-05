@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Application Form</title>
+    </head>
+    <body>
+        
+        <h1>Job Application</h1>
+        <form>
+            <label for="textfield1">Name:</label>
+            <input type="text" name="textfield1" id="textfield1">
+            <br><br>
+
+            <label for="email">Email ID:</label>
+            <input type="text" id="email">
+            <br><br>
+
+            <label for="mobileno1">Phone:</label>
+            <input type="tel" id="mobileno" name="mobileno">
+            <br><br>
+
+            <label for="fileselect1">Resume:</label>
+            <input type="file" name="fileselect1" id="fileselect1">
+            <br><br>
+
+            <label for="exp">Experience(years):</label>
+            <select name="years" id="exp">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="5+">More than 5</option>
+            </select>
+            <br><br>
+
+            <fieldset>
+                <legend>Skills:</legend>
+                <label for="checkbox1">HTML</label>
+                <input type="checkbox" id="checkbox1" name="checkbox1">
+                <br><br>
+                <label for="checkbox2">CSS</label>
+                <input type="checkbox" id="checkbox2" name="checkbox2">
+                <br><br>
+                <label for="checkbox3">Java Script</label>
+                <input type="checkbox" id="checkbox3" name="checkbox3">
+            </fieldset>
+            <br>
+
+            <label for="dropdown1">Highest Education:</label>
+            <select name="dropdown1" id="dropdown1">
+                <option value="high school">High School</option>
+                <option value="graduation">Graduation</option>
+                <option value="post graduation">Post Graduation</option>
+            </select>
+            <br><br>
+
+            <fieldset>
+                <legend>Availability:</legend>
+                <label for="radiobox1">Full-Time</label>
+                <input type="radio" id="radiobox1" name="radiobox">
+                <br><br>
+                <label for="radiobox2">Part-Time</label>
+                <input type="radio" id="radiobox2" name="radiobox">
+            </fieldset>
+
+            <label for="textarea1">Additional Comments:</label>
+            <br><br>
+            <textarea name="textarea1" id="textarea1"></textarea>
+
+            <button>Submit Application</button>
+        </form> 
+
+    </body>
+</html>
